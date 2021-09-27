@@ -1,10 +1,8 @@
-import React, {useEffect, useState} from "react";
+import React, {useState} from "react";
 import axios from "axios" ;
-import Popup from "./Popup.jsx"
-import inbound from "./images/inbound.png"
-import outbound from "./images/outbound.png"
+import Popup from "./Popup.js"
 import dateFormat from 'dateformat';
-import "./css/feed.css"
+import "./Feed.css";
 const Feed = () => {
 
   const [calls, setCalls] = useState(null);

@@ -3,7 +3,7 @@
     
 }
 
-ul.nav {
+.Tabs ul.nav {
     
     margin: 0 auto 2rem;
     display: flex;
@@ -13,21 +13,20 @@ ul.nav {
     
     
   }
-  ul.nav li {
+  .Tabs ul.nav li {
     width: 50%;
     padding: 1rem;
     list-style: none;
     text-align: center;
+    align-items: center;
+    justify-content: space-between;
 
   }
-  ul.nav li:nth-child(2) {
-    border-radius: 0;
-    
-  }
-  ul.nav li:hover {
+  
+  .Tabs ul.nav li:hover {
     background: lightgrey;
   }
-  ul.nav li.active {
+  .Tabs ul.nav li.active {
     background: rgb(37, 211, 102);
     font-weight: bold;
   }

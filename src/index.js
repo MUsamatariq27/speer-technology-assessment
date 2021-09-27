@@ -1,16 +1,17 @@
-import './css/body.css';
-import './css/app.css';
-import './css/header.css';
-import './css/popup.css';
-import './css/feed.css';
-import './css/tabs.css';
-import './css/archive.css';
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+import App from './App';
+import reportWebVitals from './reportWebVitals';
 
-import App from './App.jsx';
-import Archive from './Archive.jsx';
-import Feed from './Feed.jsx';
-import Popup from './Popup.jsx';
-import Tabs from './Tabs.jsx';
-import Header from './Header.jsx';
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById('root')
+);
 
-
+// If you want to start measuring performance in your app, pass a function
+// to log results (for example: reportWebVitals(console.log))
+// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+reportWebVitals();

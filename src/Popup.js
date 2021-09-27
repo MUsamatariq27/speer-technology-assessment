@@ -1,5 +1,5 @@
 import React from "react";
-import "./css/popup.css"
+import "./Popup.css"
  
 const Popup = props => {
   return (

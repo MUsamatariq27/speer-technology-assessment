@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
-import Feed from './Feed.jsx';
-import Archive from './Archive.jsx';
-import "./css/tabs.css"
+import Feed from './Feed.js';
+import Archive from './Archive.js';
+import "./Tabs.css"
 
 
 const Tabs = () => {
@@ -17,7 +17,7 @@ const Tabs = () => {
 
   return (
     <div className="Tabs">
-      {/* Tab nav */}
+      
       <ul className="nav">
         <li className={activeTab === "feedTab" ? "active" : ""}   onClick={handleFeed} >Activity Feed</li>
         <li className={activeTab === "archiveTab" ? "active" : ""}  onClick={handleArchive} >Archive</li>

@@ -1,7 +1,7 @@
 import React , {useState, useEffect} from 'react';
 import axios from "axios" ;
 import dateFormat from 'dateformat';
-import "./css/archive.css";
+import "./Archive.css";
 
 
 const Archive = () => {

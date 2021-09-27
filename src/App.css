@@ -1,4 +1,4 @@
-#app {
+.app {
   position: relative;
   display: flex;
   align-items: center;
@@ -7,14 +7,15 @@
   top: 0;
   right: 0;
   bottom: 0;
+  background-color: rgba(0, 0, 0, .9);
   
 
 }
 
-#app .container {
+.app .container {
   width: 376px;
   min-height: 666px;
-  max-height: fit-content;
+ 
   z-index: 100;
 
   background: white;
@@ -23,11 +24,10 @@
   padding: 1%;
 }
 
-#app .container-view {
+.app .container-view {
  
   display: flex;
   align-items: center;
   justify-content: center;
   height: fit-content
 }
-
