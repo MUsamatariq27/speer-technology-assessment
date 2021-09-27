@@ -58,7 +58,7 @@ const Archive = () => {
           <div className="callBox" key={call.id} >
 
             <div className="iconDate"> 
-              <div className="date"><p>{ dateFormat(call.created_at, "mmmm dS, yyyy ")}</p></div>
+              <div className="date"><p>Date: { dateFormat(call.created_at, "mmmm dS, yyyy ")}</p></div>
             </div>
             
             <div className="desc">
